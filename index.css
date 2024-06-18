@@ -1,3 +1,55 @@
-#root{
-    color:red;
+.header{
+    height:100px;
+    display:flex;
+    justify-content:space-between;
+    border:1px solid black;
+}
+.res1{
+    margin:5px;
+}
+.logo{
+    height:100px;
+    width:120px;
+    margin-left:15px;
+    background-image: url("https://img.freepik.com/premium-vector/online-food-app-icon-food-shop-location-logo-also-online-resturent-location-template_608547-155.jpg");
+    background-size:cover;
+}
+.nav-items > ul{
+    font-size:20px;
+    width:700px;
+    display:flex;
+    margin-top:42px;
+    margin-right:60px;
+    justify-content:space-evenly;
+    
+}
+.nav-items >ul > li{
+
+    /* margin:10px;
+    padding:10px; */
+    list-style-type: none;
+}
+.res-card{
+    width:270px;
+    background-color:0f0f0f;
+    padding:5px;
+    margin:25px;
+}
+.res-container{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:80px;
+    
+}
+.res-card:hover{
+    border:1px solid black;
+    cursor:pointer;
+}
+.search{
+    padding:10px;
+    margin-left:110px;
+}
+.res-img{
+    width:100%;
+    height:65%;
 }
